@@ -1,0 +1,21 @@
+Question 1: What do you see in the browser? When you open another tab and perform a click/drag action, what happens?
+I see a bunny-like creature, it turns red when I hover over or click it. When I open another tab and drag the creature, the creature from the other tab also changes position
+corresponding to my action.
+
+Question 2: What are some of the differences between TypeScript and JavaScript?
+JavaScript is a subset of TypeScript, meaning JavaScript can be converted to TypeScipt.
+TypeScript is an OOP language, supporting a feature of prototyping, and JavaScript is a scripting language.
+TypeScipt requires compiling, JS doesn't.
+TypeScript code can be run on any browser, devices or in any operating system. TypeScipt is not specific to any Virtual-machine etc.
+
+Question 3: Why is a web application bundler (Parcel, Webpack, Rollup, etc.) useful for modern web projects? What are some features that ParcelJS provides?
+A bundler bundles JavaScript modules into a single JavaScript files that can be executed in the browser. It is very helpful in manage the dependency relationship of different modules, keep the code clean.
+
+Question 4: What are the different values for the readyState a WebSocket can be in? Briefly describe what each state means. (Hint: check out the Mozilla WebSocket API)
+0	CONNECTING: Socket is created, yet the connection is not yet open.
+1	OPEN:	The connection is open and ready to communicate.
+2	CLOSING:	The connection is in the process of closing.
+3	CLOSED:	The connection is closed or couldn't be opened.
+
+Question 5: What's the link to your github repo?
+https://github.com/rodann42/nodejs-ws-lab
